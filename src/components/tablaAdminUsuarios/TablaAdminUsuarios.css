@@ -1,0 +1,53 @@
+.tablaAscociadosAdmin {
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid 3px black;
+  background-color: var(--celeste);
+  border-collapse: separate;
+  border-spacing: 15px;
+  border-radius: 30px;
+  color: whitesmoke;
+  box-shadow: 16px 13px 29px 10px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: 16px 13px 29px 10px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 16px 13px 29px 10px rgba(0, 0, 0, 0.72);
+  margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+  .tablaAscociadosAdmins {
+    border-collapse: collapse;
+    border-spacing: 0px;
+  }
+}
+
+.tablaAsociadosAdminEncabezado {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.tablaAsociadosAdminCabecera {
+  cursor: crosshair;
+}
+
+.tablaAsociadosButton {
+  width: 100px;
+  height: 30px;
+  background-color: var(--azulOscuro);
+  font-size: 18px;
+  color: whitesmoke;
+  border-radius: 15px;
+  border: solid 2px whitesmoke;
+  justify-self: center;
+  align-self: center;
+}
+
+.containerActionButtons {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas con tamaño igual */
+  grid-template-rows: repeat(2, 1fr); /* 2 filas con tamaño igual */
+  gap: 10px; /* Espacio entre las celdas */
+}

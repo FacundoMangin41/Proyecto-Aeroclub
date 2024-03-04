@@ -1,0 +1,58 @@
+.mostrarAeronavesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#tarjetaAeronave{
+    margin: 3.5%;
+    padding: 2rem 2rem ;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 7px 4px 60px -25px var(--twitter);
+    -moz-box-shadow: inset 7px 4px 60px -25px var(--twitter);
+    box-shadow: inset 7px 4px 60px -25px var(--twitter);
+    background-color: var(--fondoTarjetas);
+    border: 2px solid white !important;
+}
+
+.nombreAeronave{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nombreAeronave h2{
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.nombreAeronave p{
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.estado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.estado h4{
+  width: 80%;
+  margin: 1rem 0 0 0;
+  padding: 0.5rem;
+  background-color: rgb(14, 170, 0);
+  border-radius: 20px;
+  border: 1px solid white;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.nombreAeronave img{
+  width: 15rem;
+  height: 10rem;
+  border-radius: 50px;
+  border: white
+}

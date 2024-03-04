@@ -1,0 +1,14 @@
+.navbar{
+    background-color: var(--bordo) !important;
+}
+.navbarLogo{
+    height: 10vh;
+    width: auto;
+}
+
+@media (max-width: 320px) {
+    .navbarLogo{
+        height: 7vh;
+        width: auto;
+    }
+  }

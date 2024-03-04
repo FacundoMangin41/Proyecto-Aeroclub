@@ -1,0 +1,64 @@
+
+.container-informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 10%;
+    gap: 4rem;
+}
+
+.texto-informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.texto-informacion p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.informacion{
+    display: flex;
+    justify-content: center;
+    background-color: #cee4fd;
+    border-radius: 20px;
+    
+}
+
+.informacionCardClima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #cee4fd;
+    border-radius: 20px;
+    padding-bottom: 3rem;
+    
+}
+
+.informacionCardClima p{
+    font-size: 1.2rem;
+    
+}
+
+.informacion img{
+    width: 25rem;
+    border-top-right-radius: 20px;
+}
+
+.imagen-informacion {
+    width: 25rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px  !important;
+}

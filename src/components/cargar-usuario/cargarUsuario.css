@@ -1,0 +1,12 @@
+.formulario-cargar-usuario{
+    background-color: var(--fondoTarjetas);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem !important;
+    border-radius: 15px;
+}
+
+.botonCargarUsuarioNuevo{
+    margin-top: 2rem !important;
+}

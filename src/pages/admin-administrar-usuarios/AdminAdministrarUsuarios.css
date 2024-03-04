@@ -1,0 +1,30 @@
+.panelAdminContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--fondoClaro);
+}
+
+.table--showColors tr:nth-child(odd) {
+  background: var(--azulClaro);
+}
+/*
+.table--showColors tr:nth-child(even) {
+  background: #555;
+}
+*/
+
+.panelAdminBotonCambiarColores {
+  width: 150px;
+  height: 30px;
+  background-color: var(--azulOscuro);
+  font-size: 18px;
+  color: whitesmoke;
+  border-radius: 15px;
+  border: solid 2px whitesmoke;
+  margin-bottom: 20px;
+}

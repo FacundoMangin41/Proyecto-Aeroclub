@@ -1,0 +1,14 @@
+.editar-usuarios{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fondo);
+      border: 1rem solid var(--border); 
+}
+  
+  @media screen and (max-width: 662px) {
+    .edicionDeUsuarios{
+        width: 90%;
+    }
+  }

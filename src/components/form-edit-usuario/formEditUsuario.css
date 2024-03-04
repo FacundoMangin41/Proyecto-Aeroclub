@@ -1,0 +1,30 @@
+.formulario-cargar-usuario{
+    background-color: var(--fondoTarjetas);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem !important;
+    border-radius: 15px;
+}
+.fila-formulario-editar-usuario{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px){
+    .formulario-editar-usuario{
+        zoom: 1.5;
+    }
+}
+
+@media (max-width: 362px){
+    .formulario-editar-usuario{
+        zoom: 0;
+    }
+}
+
+.botonCargarUsuarioNuevo{
+    margin-top: 2rem !important;
+}

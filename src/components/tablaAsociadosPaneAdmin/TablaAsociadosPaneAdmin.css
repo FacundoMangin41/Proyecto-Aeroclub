@@ -1,0 +1,58 @@
+.tablaAscociadosAdmin {
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid 3px black;
+  background-color: var(--celeste);
+  border-collapse: separate;
+  border-spacing: 15px;
+  border-radius: 30px;
+  color: whitesmoke;
+  box-shadow: 16px 13px 29px 10px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: 16px 13px 29px 10px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 16px 13px 29px 10px rgba(0, 0, 0, 0.72);
+}
+
+@media (max-width: 768px) {
+  .tablaAscociadosAdmins {
+    border-collapse: collapse;
+    border-spacing: 0px;
+  }
+}
+
+.modal-asociado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: antiquewhite;
+  border: 2px solid #000;
+  box-shadow: 24px;
+  padding: 4px;
+}
+.tablaAsociadosAdminEncabezado {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.tablaAsociadosAdminCabecera {
+  cursor: crosshair;
+}
+
+.tablaAsociadosButtonVerMas {
+  width: 100px;
+  height: 30px;
+  background-color: var(--azulOscuro);
+  font-size: 18px;
+  color: whitesmoke;
+  border-radius: 15px;
+  border: solid 2px whitesmoke;
+}
+
+@media (max-width: 768px) {
+  .tablaAsociadosButtonVerMas {
+    width: auto;
+    height: auto;
+  }
+}

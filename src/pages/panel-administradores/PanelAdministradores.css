@@ -1,0 +1,85 @@
+.panelAdminColorAeronaves{
+  width: 55%;
+  padding: 1rem 4rem;
+  margin: 2rem 0;
+  border-radius: 15px;
+  background-color: var(--fondoTablaAsociado)
+}
+
+.panelAdminContainer{
+  border: 1rem solid var(--border); 
+}
+
+.panelAdminColorTablaAsociados{
+  padding: 0.5rem 4rem;
+  margin: 2rem 0;
+  border-radius: 15px;
+  background-color: var(--fondoTablaAsociado)
+}
+
+.panelAdminContainerClima{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  
+}
+
+.panelAdminColorClima{
+  width: 100%;
+  background-color: rgb(197, 197, 197);
+}
+
+.panelAdminTitle{
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.aeronavesPanel{
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  flex-wrap: wrap !important;
+}
+
+.table--showColors tr:nth-child(odd) {
+  background: var(--azulClaro);
+}
+/*
+.table--showColors tr:nth-child(even) {
+  background: #555;
+}
+*/
+
+.panelAdminBotonCambiarColores {
+  width: 150px;
+  height: 30px;
+  background-color: var(--azulOscuro);
+  font-size: 18px;
+  color: whitesmoke;
+  border-radius: 15px;
+  border: solid 2px whitesmoke;
+  margin-bottom: 20px;
+}
+
+.botonCargarAsociado{
+  margin-top: 15px !important;
+  margin-bottom: 5px !important;
+  background-color: whitesmoke !important;
+}
+
+.botonCargarAsociado:hover{
+  transform: scale(1.1);
+  transition: all 150ms ease;
+}
+
+@media (max-width: 485px) {
+
+  .panelAdminContainerClima{
+      display: flex;
+      flex-direction: column;
+  }
+}

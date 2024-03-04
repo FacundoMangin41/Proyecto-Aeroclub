@@ -1,0 +1,76 @@
+header {
+    height: 94vh;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url(../../../assets/images/banner.png);
+    background-size: 100% 100%;
+  }
+  header .textos-header {
+    height: 96vh;
+    display: flex;
+    justify-content: end;
+    flex-direction: column; /*para que el texto se escriba uno bajo el otro*/
+    color: rgb(197, 197, 197);
+    font-family: "Lilita One";
+    text-shadow: 5px 5px 15px var(--bordo);
+    padding-bottom: 1.5rem;
+  }
+  header .textos-banner{
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.76);
+    width: 100%;
+    padding: 2rem 0;
+    border-top: 2px solid rgb(88, 0, 0);
+  }
+  header .textos-header #header-titulo { /*texto 1 Tamaño*/
+    font-size: clamp(3rem, 5rem, 9vw);
+    margin: 0 !important;
+    font-weight: bold !important;
+  }
+  header .titulo-logo-celular {
+    display: none;
+  }
+
+  header .iconos{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem ;
+    transition: all 400ms ease;
+    padding-bottom: 1rem;
+  }
+
+  header .iconos .bi{
+    font-size: 3.4rem;
+  }
+
+
+  header .iconos .facebook {
+    transition: all 400ms ease !important;
+  }
+  header .iconos .facebook:hover {
+    transform: scale(1.2) !important;
+  }
+  header .iconos .twitter {
+    transition: all 400ms ease !important;
+
+  }
+  header .iconos .twitter:hover {
+    transform: scale(1.2) !important;
+  }
+  header .iconos .instagram {
+    transition: all 400ms ease !important;
+  }
+  header .iconos .instagram:hover {
+    transform: scale(1.2) !important;
+  }
+  header .iconos .whatsapp {
+    transition: all 400ms ease !important;
+  }
+  header .iconos .whatsapp:hover {
+    transform: scale(1.2) !important;
+  }
+  /*--------------------------------------------------------------
+  -----------------------  Respónsive  ---------------------------
+  ----------------------------------------------------------------*/
+  /* ------------ Celulares chicos ejemplo Galaxy Fold-------------- */
+  

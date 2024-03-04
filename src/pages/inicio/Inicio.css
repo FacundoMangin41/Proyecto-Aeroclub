@@ -1,0 +1,11 @@
+.home-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color:#58749D;
+}
+
+.banner-landing-page{
+    padding-top: 0px !important;
+}

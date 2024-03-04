@@ -1,0 +1,8 @@
+.container-dialog-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.color-texto-email{
+    color: #0000ff;
+}

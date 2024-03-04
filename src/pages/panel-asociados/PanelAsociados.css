@@ -1,0 +1,49 @@
+.panelAsociadoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    gap: 10px;
+    min-height: 100vh;
+    background-color: var(--fondo);
+    padding-bottom: 10px;
+    border: 1rem solid var(--border);  
+  }
+  .filaPanelAsociado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    width: fit-content;
+  }
+  .colorFilaPanelAsociado{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(197, 197, 197);
+  }
+
+  .colorTablaPanelAsociado{
+    padding: 40px;
+  }
+
+  .TablaTurnos{
+    max-width: 95%;
+  }
+  .panelAsociadoContainerSaldo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+  }
+
+  
+  

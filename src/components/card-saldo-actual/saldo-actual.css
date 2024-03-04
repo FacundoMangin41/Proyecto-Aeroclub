@@ -1,0 +1,55 @@
+.containerInformacionPanelControl{
+    width: 100%;
+    background-color: var(--fondoTarjetas);
+    padding: 1.5rem 2.5rem ;
+    border-radius: 10px;
+    border: 0.5rem solid white;
+}
+
+.containerInformacionPanelControl h1{
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+.containerInformacionPanelControl p{
+    margin: 1rem 0 2rem ;
+    font-size: 0.5;
+}
+
+.informacionPanelControl{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacionPanelControl img{
+    display: flex;
+    width: 6rem;
+    border-radius: 30%;
+}
+
+.textoInformacionPanelControl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textoInformacionPanelControl h1{
+    font-size: 1.5rem;
+    font-weight: bold !important;
+
+}
+
+.textoInformacionPanelControl p{
+    font-size: 1.3rem;
+    font-weight: bold !important;
+    background-color: var(--verdeSemaforo);
+    border-radius: 10px;
+    border: 2px solid white;
+    color: aliceblue;
+    padding: 0 1rem;
+    margin: 0.5rem 0 0;
+} 
+

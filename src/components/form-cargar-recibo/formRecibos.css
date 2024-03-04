@@ -1,0 +1,32 @@
+.cargaReciboVuelo{
+    background-color: var(--fondoTarjetas);
+    border-radius: 15px;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.botonCargaRecibo{
+    margin-top: 2rem !important;
+    background-color: var(--verdeSemaforo) !important;
+}
+
+.panelAdminTitle{
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.cajaItinerarios{
+    background-color: #ffffffbb;
+    border-radius: 15px;
+    padding: 2rem 3rem;
+    margin-top: 3rem;
+}
+
+.fila-formulario-recibo-observaciones h1{
+    margin-top: 0;
+}
+
+.VueloInstructor{
+    display: flex;
+    flex-direction: column;
+}

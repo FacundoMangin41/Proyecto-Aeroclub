@@ -1,0 +1,31 @@
+.ContainerCard {
+  width: 600px;
+  height: 300px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr); /* 2 columnas con tamaño igual */
+  grid-template-rows: repeat(3, 1fr); /* 2 filas con tamaño igual */
+  gap: 10px; /* Espacio entre las celdas */
+  background-color: var(--celeste);
+  border: solid 5px var(--azulClaro);
+  border-radius: 20px;
+  box-shadow: 16px 13px 29px 10px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: 16px 13px 29px 10px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 16px 13px 29px 10px rgba(0, 0, 0, 0.72);
+}
+
+.cardFotoPerfil {
+  grid-row-start: 1; /* Comienza en la fila 1 */
+  grid-row-end: 3; /* Termina en la fila 3 (ocupa 2 filas) */
+  grid-column-start: 1; /* Comienza en la columna 1 */
+  grid-column-end: 3; /* Termina en la columna 3 (ocupa 2 columnas) */
+}
+
+.cardDataUsuario {
+  font-size: 18px;
+  color: whitesmoke;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,12 @@
+.tamano-registrar-recibo-combustible{
+    padding: 0.5rem 4rem 2.5rem ;
+    margin: 2rem 0;
+    border-radius: 15px;
+    background-color: var(--fondoTarjetas);
+}
+
+@media screen and (max-width: 662px) {
+    .tamano-registrar-recibo-combustible{
+        width: 90%;
+    }
+  }

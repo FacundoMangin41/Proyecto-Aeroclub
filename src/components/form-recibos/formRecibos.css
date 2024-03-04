@@ -1,0 +1,13 @@
+
+
+@media (max-width: 768px){
+    .formulario-editar-usuario{
+        zoom: 1.5;
+    }
+}
+
+@media (max-width: 362px){
+    .formulario-editar-usuario{
+        zoom: 0;
+    }
+}

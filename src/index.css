@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --bordo: #810808;
+  --rojoSemaforo: #b90c0c;
+  --verdeSemaforo: #31bf2e;
+  --amarilloSemaforo: #edcf34;
+  --azulOscuro: #2633a9;
+  --azulClaro: #4594f0;
+  --celeste: #58749d;
+  --verdeCard: #83b04a;
+  --fondoClaro: #dbdcd8;
+  --poppins: "Poppins", sans-serif;
+  --facebook: #3b5998;
+  --instagram: rgb(204, 211, 60);
+  --twitter: #00acee;
+  --whatsapp: #25D366;
+  --gris: #a8a6a6;
+  --fondoTarjetas: #cee4fd;
+  --fondo: #58749d;
+  --fondoTablas: #eeeeee;
+  --itemsTabla: #cee4fd36;
+  --fondoTablaAsociado: #b4d7ff9c;
+  --border: #dbecff36;
+}
+
+/* ---------------------------------------------
+---------------------- TABLAS ------------------
+------------------------------------------------ */
+.css-gl260s-MuiDataGrid-columnHeadersInner{
+  background-color: var(--fondoTarjetas);
+}
+.css-kzyyzb-MuiDataGrid-root .MuiDataGrid-withBorderColor{
+  background-color: var(--fondoTarjetas);
+}
+
+.css-yrdy0g-MuiDataGrid-columnHeaderRow{
+  width: 100px !important;
+}
+
+.css-1akuw9y-MuiDataGrid-overlayWrapperInner{
+  background-color: var(--fondoTablas);
+}
+
+.css-1kwdphh-MuiDataGrid-virtualScrollerContent {
+  background-color: var(--fondoTablas);
+}
+
+.css-kzyyzb-MuiDataGrid-root .MuiDataGrid-row:not(.MuiDataGrid-row--dynamicHeight)>.MuiDataGrid-cell{
+  background-color: var(--itemsTabla);
+}
+
+.css-128fb87-MuiDataGrid-toolbarContainer{
+  background-color: var(--fondoTarjetas);
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+@media screen and (max-width: 768px) {
+  .tablaTransaccionesAsociados{
+    width: 90%;
+  }
+  .reducirTabla{
+    width: 90%;
+  }
+}
+
+
+.panelAdminContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  min-height: 80vh;
+  background-color: var(--fondo) !important;
+}
+
+.panelAdminVerRecibos{
+  padding: 0.5rem 4rem 2.5rem ;
+  margin: 2rem 0;
+  border-radius: 15px;
+  background-color: var(--fondoTablaAsociado);
+}
+
+.panelVerMovimientos{
+  padding: 0.5rem 4rem 2.5rem ;
+  margin: 2rem 0;
+  border-radius: 15px;
+  background-color: var(--fondoTablaAsociado);
+}
+
+
+/* -----------------------Ver Recibos ------------------------------- */
+
+@media screen and (max-width: 1339px) {
+  .panelAdminVerRecibos{
+      width: 90%;
+  }
+}
+
+

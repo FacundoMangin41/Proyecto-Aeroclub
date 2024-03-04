@@ -1,0 +1,118 @@
+.footerContainer {
+  height: 220px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--bordo);
+}
+
+@media (max-width: 768px) {
+  .footerContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    gap: 3rem;
+  }
+}
+.texto-horario{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.footerDerechos {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  text-align: start;
+  color: whitesmoke;
+}
+.horarios{
+  width: 33.33%;
+  color: aliceblue;
+}
+
+.footerLogo{
+  width: 33.33%;
+}
+
+.horarios .resaltar{
+  color: #fac6c4 !important;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .footerDerechos {
+    font-size: 14px;
+    width: 45%;
+  }
+}
+
+.footerLogo {
+  height: 100%;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .footerLogo {
+    display: none;
+  }
+}
+
+.footerRedesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 33.33%;
+  gap: 1.5rem;
+
+  .bi{
+    height: clamp(2.3em,9em,3vw);
+    width: auto;
+    transition: all 400ms ease;
+  }
+  .bi:hover{
+      cursor: pointer;
+      transform:scale(1.2);
+  }
+  .bi-whatsapp{
+      fill: aliceblue;
+  }
+  .bi-facebook{
+      fill: aliceblue;
+  }
+  .bi-twitter-x{
+      fill: aliceblue;
+  }
+  .bi-instagram{
+      fill: aliceblue;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerRedesContainer {
+    width: 45%;
+  }
+}
+
+
+.footerRedesLinkLogo {
+  height: 50px;
+  width: 50px;
+}
+.derechos-de-autor {
+  display: flex;
+  justify-content: center;
+  font-size: 0.6vw;
+  height: 1rem ;
+}
